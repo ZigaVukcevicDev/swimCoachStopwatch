@@ -1,6 +1,8 @@
 # Swim Coach Stopwatch
 
-Mobile application for time measuring of multiple swimmers. Made with love for swimming.
+Mobile application for time measuring of multiple swimmers.
+
+:swimmer: :blue_heart: Made with love for swimming. :blue_heart: :swimmer:
 
 ---
 
