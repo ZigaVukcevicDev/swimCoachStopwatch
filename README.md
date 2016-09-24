@@ -53,3 +53,14 @@ Output:
 ### Measuring multiple swimmers split times.
 
 // TODO: Write scenario and technical parameters - [Issue #2](https://github.com/be-codified/swimCoachStopwatch/issues/2)
+
+---
+
+## Development
+
+### How to run
+
+```
+react-native run-ios
+```
+
