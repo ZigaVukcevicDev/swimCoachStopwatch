@@ -40,7 +40,7 @@ Automatic computation is made for showing net time result.
 Computation follows rule:
 
 - `00:29:54 - 00:00:00` (for 1st swimmer)
-- `00:37:12 - 00:05:00 (for 2nd swimmer)
+- `00:37:12 - 00:05:00` (for 2nd swimmer)
 
 #### Technical parameters
 
