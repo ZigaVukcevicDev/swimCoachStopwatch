@@ -12,14 +12,16 @@ Mobile application for time measuring of multiple swimmers. Made with love for s
 
 #### Scenario:
 
-**Start point**
+##### A) Start point
 
 Coach starts first swimmer. After specific time interval (e.g. 5 seconds) coach starts second swimmer. Coach can proceed this behaviour for more swimmers.
 
+```
 1st swimmer: 0:00:00
 2nd swimmer: 0:05:00
+```
 
-**Finish point**
+##### B) Finish point
 
 Coach ends time of first swimmer, then second swimmer. Coach can proceed this behaviour for more swimmers.
 
@@ -35,19 +37,21 @@ Automatic computation is made for showing net time result.
 2nd swimmer: 0:32:12
 ```
 
-Computation follows:
+Computation follows rule:
 
-- 1st swimmer: 0:29:54 - 0:00:00
-- 2nd swimmer: 0:37:12 - 0:05:00
+- 0:29:54 - 0:00:00 (for 1st swimmer)
+- 0:37:12 - 0:05:00 (for 2nd swimmer)
 
-#### Technicals
+#### Technical parameters
 
 Input:
-- Required time interval in seconds.
+- Required time interval, measured in seconds.
 
 Output:
 - Computed net time result for each swimmer.
 
 ---
 
-### // TODO: Split times
+### Measuring multiple swimmers split times.
+
+// TODO: write scenario and techical parameters
