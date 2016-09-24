@@ -4,9 +4,9 @@ Mobile application for time measuring of multiple swimmers.
 
 :swimmer: :swimmer: :swimmer: Made with love for swimming.
 
----
-
 **NOTE: This project is work in progress.**
+
+---
 
 ## Functionalities
 
