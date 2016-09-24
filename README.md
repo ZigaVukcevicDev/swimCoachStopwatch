@@ -2,7 +2,7 @@
 
 Mobile application for time measuring of multiple swimmers.
 
-:swimmer: :blue_heart: Made with love for swimming. :blue_heart: :swimmer:
+:swimmer: :swimmer: :swimmer: Made with love for swimming.
 
 ---
 
