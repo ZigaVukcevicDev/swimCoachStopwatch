@@ -1,8 +1,10 @@
 # Swim Coach Stopwatch
 
-Mobile application for time measuring of multiple swimmers.
+> Mobile application for time measuring of multiple swimmers.
 
 :swimmer: :swimmer: :swimmer: Made with love for swimming.
+
+[!Awesome](https://github.com/sindresorhus/awesome)
 
 **NOTE: This project is work in progress.**
 
