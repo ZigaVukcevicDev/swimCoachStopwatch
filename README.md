@@ -1,10 +1,8 @@
-# Swim Coach Stopwatch
+# Swim Coach Stopwatch [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]()
 
 > Mobile application for time measuring of multiple swimmers.
 
 :swimmer: :swimmer: :swimmer: Made with love for swimming.
-
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 **NOTE: This project is work in progress.**
 
