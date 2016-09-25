@@ -4,7 +4,7 @@
 
 :swimmer: :swimmer: :swimmer: Made with love for swimming.
 
-[!Awesome](https://github.com/sindresorhus/awesome)
+[![Awesome](:swimmer:)](https://github.com/sindresorhus/awesome)
 
 **NOTE: This project is work in progress.**
 
