@@ -4,8 +4,9 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { AppRegistry, StyleSheet, Text, View } from 'react-native';
+import AboutUs from './aboutUs.js'
 
 class swimCoachStopwatch extends Component {
     render() {
@@ -21,9 +22,10 @@ class swimCoachStopwatch extends Component {
                     Press Cmd+R to reload,{'\n'}
                     Cmd+D or shake for dev menu
                 </Text>
+                <AboutUs />
             </View>
-    );
-  }
+        );
+    }
 }
 
 const styles = StyleSheet.create({
