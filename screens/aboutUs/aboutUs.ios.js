@@ -1,8 +1,10 @@
 import React, { Component, PropTypes } from 'react';
-import { AppRegistry, StyleSheet, Text, View, NavigatorIOS, TouchableHighlight } from 'react-native';
+import { Text, View } from 'react-native';
 import styles from './styles.js';
 
 export default class AboutUs extends Component {
+    // TODO: if possible make link and email as real link
+
     render() {
         return (
             <View style={styles.container}>

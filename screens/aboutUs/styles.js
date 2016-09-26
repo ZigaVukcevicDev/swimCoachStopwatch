@@ -1,5 +1,7 @@
 import { StyleSheet } from 'react-native';
 
+// TODO: use flex instead of vertical margins
+
 export default styles = StyleSheet.create({
     container: {
         flex: 1,
