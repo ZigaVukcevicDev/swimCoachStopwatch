@@ -3,8 +3,10 @@ import { Text, View } from 'react-native';
 import styles from './styles.js';
 
 export default class AboutUs extends Component {
-    // TODO: if possible make link and email as real link
-
+    // TODO:
+    // - if possible make link and email as real link
+    // - add "Made with love for swimming."
+    
     render() {
         return (
             <View style={styles.container}>
