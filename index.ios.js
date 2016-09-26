@@ -6,7 +6,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import { AppRegistry, StyleSheet, Text, View } from 'react-native';
-import AboutUs from './aboutUs.js'
+import AboutUs from './screens/aboutUs/aboutUs.ios.js'
 
 class swimCoachStopwatch extends Component {
     render() {
