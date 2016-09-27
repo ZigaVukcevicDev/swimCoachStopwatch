@@ -72,3 +72,19 @@ npm install
 react-native run-ios
 ```
 
+## How to release
+
+Major release
+```
+npm run release:major
+```
+
+Minor release
+```
+npm run release:minor
+```
+
+Patch release
+```
+npm run release:patch
+```
