@@ -1,5 +1,7 @@
 # Swim Coach Stopwatch [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]()
 
+[![npm version](https://badge.fury.io/js/swimCoachStopwatch.svg)](https://badge.fury.io/js/swimCoachStopwatch)
+
 > Mobile application for time measuring of multiple swimmers, using [React Native](https://facebook.github.io/react-native/).
 
 :swimmer: :swimmer: :swimmer: Made with love for swimming.
