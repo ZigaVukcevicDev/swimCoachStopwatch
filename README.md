@@ -72,7 +72,7 @@ npm install
 react-native run-ios
 ```
 
-## How to release
+### How to release
 
 Major release
 ```
