@@ -1,7 +1,7 @@
 {
     "name": "swimCoachStopwatch",
     "version": "0.0.1",
-    "private": true,
+    "private": false,
     "scripts": {
         "start": "node node_modules/react-native/local-cli/cli.js start",
         "release:major": "npm version major && npm publish && git push --follow-tags",
