@@ -7,11 +7,14 @@
 import React, { Component, PropTypes } from 'react';
 import { AppRegistry, StyleSheet, Text, View } from 'react-native';
 import AboutUs from './screens/aboutUs/aboutUs.ios.js'
+import Timer from './components/timer/timer.ios.js'
 
-class swimCoachStopwatch extends Component {
+class SwimCoachStopwatch extends Component {
     render() {
         return (
             <View style={styles.container}>
+                <Timer />
+                {/*
                 <Text style={styles.welcome}>
                     Welcome to React Native!
                 </Text>
@@ -23,6 +26,7 @@ class swimCoachStopwatch extends Component {
                     Cmd+D or shake for dev menu
                 </Text>
                 <AboutUs />
+                 */}
             </View>
         );
     }
@@ -47,4 +51,4 @@ const styles = StyleSheet.create({
     }
 });
 
-AppRegistry.registerComponent('swimCoachStopwatch', () => swimCoachStopwatch);
+AppRegistry.registerComponent('swimCoachStopwatch', () => SwimCoachStopwatch);
