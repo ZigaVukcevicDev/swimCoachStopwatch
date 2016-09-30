@@ -7,18 +7,26 @@ import React, { Component, PropTypes } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 class Timer extends React.Component {
-    constructor() {
-        super();
+
+    static propTypes = {
+        computation: React.PropTypes.oneOf(['addition', 'subtraction']).isRequired,
+        valueStart: React.PropTypes.number.isRequired
+    };
+
+    constructor(props) {
+        super(props);
 
         this.state = {
-            timerValue: 0
+            valueCurrent: props.valueStart
         }
     }
 
     componentDidMount() {
+        const stepValue = this.props.computation === 'addition' ? 1 : -1;
+
         this.timer = setInterval(() => {
             this.setState({
-                timerValue: this.state.timerValue + 1
+                valueCurrent: this.state.valueCurrent + stepValue
             })
 
         }, 1000);
@@ -31,7 +39,7 @@ class Timer extends React.Component {
     render() {
         return (
             <Text>
-                {this.state.timerValue}
+                {this.state.valueCurrent}
             </Text>
         );
     }

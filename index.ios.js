@@ -13,7 +13,14 @@ class SwimCoachStopwatch extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Timer />
+                <Timer
+                    computation={'addition'}
+                    valueStart={0}
+                />
+                <Timer
+                    computation={'subtraction'}
+                    valueStart={5}
+                />
                 {/*
                 <Text style={styles.welcome}>
                     Welcome to React Native!
