@@ -90,3 +90,9 @@ Patch release
 ```
 npm run release:patch
 ```
+
+---
+
+## Resources
+
+- [Interface Sketch](http://www.interfacesketch.com/])
