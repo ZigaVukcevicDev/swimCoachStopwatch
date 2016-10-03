@@ -1,12 +1,13 @@
+'use strict';
 import React, { Component, PropTypes } from 'react';
 import { Text, View } from 'react-native';
 import styles from './styles.js';
 
-export default class AboutUs extends Component {
+class AboutUs extends Component {
     // TODO:
     // - if possible make link and email as real link
     // - add "Made with love for swimming."
-    
+
     render() {
         return (
             <View style={styles.container}>
@@ -29,3 +30,5 @@ export default class AboutUs extends Component {
         );
     }
 }
+
+export default AboutUs;

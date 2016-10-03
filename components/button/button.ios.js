@@ -4,7 +4,7 @@
  */
 
 import React, { Component, PropTypes } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text } from 'react-native';
 
 class Button extends React.Component {
 

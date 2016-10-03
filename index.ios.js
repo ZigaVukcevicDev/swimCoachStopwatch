@@ -1,11 +1,9 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+ * SwimCoachStopwatch React Native App
  */
 
 import React, { Component, PropTypes } from 'react';
-import { AppRegistry, StyleSheet, Text, View } from 'react-native';
+import { AppRegistry, StyleSheet, View } from 'react-native';
 import AboutUs from './screens/aboutUs/aboutUs.ios.js'
 import Timer from './components/timer/timer.ios.js';
 import Button from './components/button/button.ios.js';
