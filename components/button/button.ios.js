@@ -24,10 +24,10 @@ class Button extends React.Component {
         const props = this.props;
 
         // TODO: rather use append (or similar) for shorter syntax
-        stylesRaw.circle.backgroundColor = props.backgroundColor;
-        stylesRaw.circle.width = props.diameter;
-        stylesRaw.circle.height = props.diameter;
-        stylesRaw.circle.borderRadius = props.diameter / 2;
+        styles.circle.backgroundColor = props.backgroundColor;
+        styles.circle.width = props.diameter;
+        styles.circle.height = props.diameter;
+        styles.circle.borderRadius = props.diameter / 2;
     }
 
     onPressButton() {

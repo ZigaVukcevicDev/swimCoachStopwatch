@@ -1,8 +1,5 @@
-import { StyleSheet } from 'react-native';
-
 // TODO: use flex instead of vertical margins
-
-export default styles = StyleSheet.create({
+export default stylesRaw = {
     container: {
         flex: 1,
         justifyContent: 'center',
@@ -34,4 +31,4 @@ export default styles = StyleSheet.create({
         marginLeft: 10,
         textAlign: 'center'
     }
-});
+};

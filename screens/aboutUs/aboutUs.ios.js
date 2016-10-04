@@ -1,7 +1,9 @@
 'use strict';
 import React, { Component, PropTypes } from 'react';
-import { Text, View } from 'react-native';
-import styles from './styles.js';
+import { Text, View, StyleSheet } from 'react-native';
+import stylesRaw from './stylesRaw.js';
+
+const styles = StyleSheet.create(stylesRaw);
 
 class AboutUs extends Component {
     // TODO:
