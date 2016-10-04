@@ -29,22 +29,10 @@ class SwimCoachStopwatch extends Component {
                     refreshTime={200}
                 />
                 <Button
-                    text="I will be a button in the near future!"
-                    diameter={20}
+                    text={'start'}
+                    diameter={64}
+                    backgroundColor={'green'}
                 />
-                {/*
-                <Text style={styles.welcome}>
-                    Welcome to React Native!
-                </Text>
-                <Text style={styles.instructions}>
-                    To get started, edit index.ios.js
-                </Text>
-                <Text style={styles.instructions}>
-                    Press Cmd+R to reload,{'\n'}
-                    Cmd+D or shake for dev menu
-                </Text>
-                <AboutUs />
-                 */}
             </View>
         );
     }
