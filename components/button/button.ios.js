@@ -6,6 +6,8 @@
 import React, { Component, PropTypes } from 'react';
 import { Text, TouchableHighlight, StyleSheet } from 'react-native';
 import stylesRaw from './stylesRaw.js';
+import cloneDeep from 'lodash/cloneDeep';
+import merge from 'lodash/merge';
 
 class Button extends React.Component {
 
@@ -16,22 +18,26 @@ class Button extends React.Component {
     };
 
     componentWillMount() {
-        this.setAdditionalStyles();
-        this.styles = StyleSheet.create(stylesRaw);
+        this.styles = StyleSheet.create(this.setAdditionalStyles());
     }
 
     setAdditionalStyles() {
         const props = this.props;
 
-        // TODO: rather use append (or similar) for shorter syntax
-        styles.circle.backgroundColor = props.backgroundColor;
-        styles.circle.width = props.diameter;
-        styles.circle.height = props.diameter;
-        styles.circle.borderRadius = props.diameter / 2;
+        const additionalStyles = {
+            circle: {
+                backgroundColor: props.backgroundColor,
+                width: props.diameter,
+                height: props.diameter,
+                borderRadius: props.diameter / 2
+            }
+        };
+
+        return merge(cloneDeep(stylesRaw), additionalStyles);
     }
 
     onPressButton() {
-        console.log('I was pressed');
+        console.log('I was pressed.');
     }
 
     render() {
@@ -43,7 +49,7 @@ class Button extends React.Component {
                 onPress={this.onPressButton}
             >
                 <Text>
-                    {this.props.text}
+                    {props.text}
                 </Text>
             </TouchableHighlight>
         );
